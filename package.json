@@ -26,13 +26,12 @@
     "wrangler": "4.21.x"
   },
   "scripts": {
-    "astro": "astro",
-    "build": "astro build",
-    "cf-typegen": "wrangler types",
-    "check": "astro build && tsc && wrangler deploy --dry-run",
-    "deploy": "wrangler deploy",
-    "dev": "astro dev",
-    "preview": "astro build && wrangler dev"
-  },
+  "astro": "astro",
+  "build": "astro build",
+  "cf-typegen": "wrangler types",
+  "dev": "wrangler dev --remote -- astro dev",
+  "preview": "npm run build && wrangler deploy --dry-run -c wrangler.prod.json",
+  "deploy": "wrangler deploy -c wrangler.prod.json"
+},
   "type": "module"
 }
