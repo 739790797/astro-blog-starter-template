@@ -1,6 +1,6 @@
 {
-  "name": "astro-blog-starter-template",
-  "description": "Build a personal website, blog, or portfolio with Astro.",
+  "name": "baiyi-blog",
+  "description": "白衣的个人博客，记录与分享。",
   "private": true,
   "cloudflare": {
     "label": "Astro Framework Starter",
