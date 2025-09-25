@@ -1,9 +1,5 @@
----
-title: "我的第一篇博客"
-description: "这里是这篇文章的简短描述"
-pubDate: "Jun 25 2024"
-heroImage: "/images/blog-placeholder-1.jpg"
-heroImage: "/images/images/blog-placeholder-1.jpg"
----
+# 白衣的博客
 
-***（正文）***
+这是我的个人博客，使用 Astro + Cloudflare 构建。
+
+用于记录技术学习和生活思考。
